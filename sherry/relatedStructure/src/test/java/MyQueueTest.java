@@ -1,10 +1,11 @@
+import com.jiuzhang.structures.MyQueue;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class MyQueueTest {
 
-    @Test
+    //@Test
     void enQueue() {
         MyQueue<Integer> queue = new MyQueue<>();
         queue.enQueue(1);
@@ -14,7 +15,7 @@ class MyQueueTest {
 
     }
 
-    @Test
+  //  @Test
     void isEmpty() {
         MyQueue<Integer> queue = new MyQueue<>();
         assertTrue(queue.isEmpty());
